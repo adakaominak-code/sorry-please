@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import confetti from 'canvas-confetti';
 
-// Your custom cat images
-const CAT_TULIPS = "/cats/cat-flowers.png";
-const CAT_SHY = "/cats/cat-shy.png";
-const CAT_KITTEN = "/cats/cat-kitten.png";
-const CAT_ANGRY = "/cats/cat-angry.png";
-const CAT_KNIFE = "/cats/cat-knife.png";
+// Your custom cat images - use BASE_URL for GitHub Pages compatibility
+const BASE = import.meta.env.BASE_URL || '/';
+const CAT_TULIPS = `${BASE}cats/cat-flowers.png`;
+const CAT_SHY = `${BASE}cats/cat-shy.png`;
+const CAT_KITTEN = `${BASE}cats/cat-kitten.png`;
+const CAT_ANGRY = `${BASE}cats/cat-angry.png`;
+const CAT_KNIFE = `${BASE}cats/cat-knife.png`;
 
 // Typewriter effect hook
 const useTypewriter = (text, speed = 50, startDelay = 0, trigger = true) => {
