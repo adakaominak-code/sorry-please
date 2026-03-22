@@ -95,12 +95,12 @@ function App() {
 
     const introText = useTypewriter("hey cutie... 💕", 100, 800);
     const askText = useTypewriter(
-        scene === 'ask' ? "will you be my valentine? 🥺👉👈" : "",
+        scene === 'ask' ? "Mati vaat nhi kare? 🥺👉👈" : "",
         70,
         1000
     );
     const moreText = useTypewriter(
-        scene === 'thankyou' ? "but wait... there's something more 💌" : "",
+        scene === 'thankyou' ? "but wait... Thare vste kuch haa 💌" : "",
         60,
         500,
         scene === 'thankyou'
@@ -312,7 +312,7 @@ function App() {
                         <span className="rainbow-shimmer">YAYYYY!!!</span>
                     </h1>
                     <p className="love-message fade-in-up">
-                        happy valentine's day my love 💕
+                        Mn Tha Tu ke Tu ha boli 😽💕
                     </p>
                     <div className="heart-burst">
                         {['💖', '💗', '💓', '💕', '💝', '🌹', '✨', '💖', '💗', '💓'].map((h, i) => (
@@ -362,23 +362,22 @@ function App() {
                                 <p className="letter-greeting">My Dearest Love,</p>
 
                                 <p className="letter-body">
-                                    Every moment with you feels like a dream I never want to wake up from.
-                                    Your smile lights up my darkest days, and your laugh is the sweetest melody
-                                    I've ever heard.
+                                    We both know ki glti toh thari haa but mei hosiu ki chalo hamke wait pu kara kaa tha tu aaven 
+                                    mn sorry boli butttt naa tu sorry kikn pu bole jab tak mu hu 😾🫶🏻
+
                                 </p>
 
                                 <p className="letter-body">
-                                    You make every ordinary day feel extraordinary. Thank you for being
-                                    my best friend, my soulmate, and my everything.
+                                    Im sorry ji i forgot to use my brain that day😿 mu thodo pagal hu thare
+                                    pyaar mei.. jako aap mn maaf kro kuki mu tha vagar 1sec bhi nhi reh hkto 😾
                                 </p>
 
                                 <p className="letter-body">
-                                    I promise to love you with all my heart, today and always.
-                                    You are my forever valentine. 💕
+                                    Lob u baby 😽🥳🫂
                                 </p>
 
                                 <p className="letter-closing">
-                                    Forever & Always Yours,
+                                    
                                 </p>
                                 <p className="letter-signature">
                                     With All My Love 💖
